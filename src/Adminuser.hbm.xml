@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.hdax.entity.Adminuser" table="adminuser" schema="vivo_mall">
+        <id name="aUid" column="a_uid"/>
+        <property name="aUname" column="a_uname"/>
+        <property name="aUpwd" column="a_upwd"/>
+        <property name="aUphone" column="a_uphone"/>
+        <property name="aIdentityCard" column="a_identityCard"/>
+        <property name="avatar" column="avatar"/>
+        <property name="roleId" column="roleId"/>
+        <property name="aCreateTime" column="a_createTime"/>
+        <property name="aSex" column="a_sex"/>
+    </class>
+</hibernate-mapping>
